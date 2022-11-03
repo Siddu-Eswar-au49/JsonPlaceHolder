@@ -27,9 +27,3 @@ data = []
 for name in names.split("\n")[1:-1]:
     data.append(name.split())
 dump(data,jsonFile)
-
-import os
-# print(os.pardir)
-os.system("git add .");
-os.system('git commit -m "updated"');
-os.system("git push");
